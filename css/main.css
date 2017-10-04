@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.video_player {}
+
+.video_player__wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.video_player__video {
+  display: block;
+  height: 225px;
+  width: 400px;
+  background-color: #ccc;
+}
+
+.video_player__button {
+  float: left;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 200px;
+}
+
+.video_player__title,.video_player__description {
+  width: 400px;
+}
+
+.error {
+  color: red;
+  border: 1px solid #ffcccc;
+  padding: 0.5em;
+  display: none;
+}
+
+.error--visible {
+  display: block;
+}
